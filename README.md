@@ -89,7 +89,7 @@ kubectl get configmap apisix-config -n apisix-system -o yaml > apisix-config-bac
 kubectl get apisixroutes -n apisix-system -o yaml > routes-backup.yaml
 kubectl get apisixservices -n apisix-system -o yaml > services-backup.yaml
 ```
-##Recommment
+## Recommment
 Use adc
 ```
 https://github.com/api7/adc
