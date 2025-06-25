@@ -14,7 +14,7 @@ This repository contains a comprehensive guide for upgrading Apache APISIX API G
 - ✅ Backup and rollback strategies
 - ✅ Enterprise license configuration
 - ✅ Kubernetes-native deployment
-- ✅ Performance optimization
+- ✅ Performance optimisation
 - ✅ Troubleshooting guides
 
 ## 🏗️ Architecture
@@ -88,6 +88,11 @@ kubectl get configmap apisix-config -n apisix-system -o yaml > apisix-config-bac
 # Backup routes and services
 kubectl get apisixroutes -n apisix-system -o yaml > routes-backup.yaml
 kubectl get apisixservices -n apisix-system -o yaml > services-backup.yaml
+```
+##Recommment
+Use adc
+```
+https://github.com/api7/adc
 ```
 
 ### 2. Review Breaking Changes
